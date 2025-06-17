@@ -42,7 +42,7 @@ class TaskManager:
         self.conn.execute("DELETE FROM tasks WHERE id = ?", (id,))
         self.conn.commit()
 
-    def get_specifc_task(self, id):
+    def get_specific_task(self, id):
         cursor = self.conn.execute(
         "SELECT id, title, description, due_date, completed FROM tasks WHERE id = ?",
         (id,)
