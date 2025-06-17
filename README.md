@@ -29,11 +29,13 @@ Run commands like these:
 
 - Mark complete:
 
-  ```bash  python3 main.py complete --id 1
+  ```bash  
+  python3 main.py complete --id 1
 
 - Delete tasks:
 
-  ```bash  python3 main.py delete --id 1
+  ```bash  
+  python3 main.py delete --id 1
 
 
 
