@@ -36,6 +36,3 @@ Run commands like these:
 
   ```bash  
   python3 main.py delete --id 1
-
-
-
