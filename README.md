@@ -22,3 +22,18 @@ Run commands like these:
   ```bash
   python3 main.py add --title "Buy groceries" --description "Milk, eggs, bread" --due "2025-06-20"
 
+- List tasks:
+
+  ```bash
+  python3 main.py list
+
+- Mark complete:
+
+  ```bash  python3 main.py complete --id 1
+
+- Delete tasks:
+
+  ```bash  python3 main.py delete --id 1
+
+
+
