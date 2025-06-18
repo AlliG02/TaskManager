@@ -1,4 +1,4 @@
-# Task Scheduler CLI
+# Task Manager CLI
 
 A simple Python CLI tool to manage your tasks — add, list, complete, and delete. Tasks are saved in a SQLite database so they stick around.
 
